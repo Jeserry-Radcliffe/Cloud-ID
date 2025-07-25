@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+body.light-mode {
+  color: #212121;
+  background-color: var(--lightmode);
+}
+body.dark-mode {
+  background-color: var(--darkmode);
+  color: #d3eccd;
+}
+.light-mode a {
+  color: #212121;
+}
+
+.dark-mode a {
+  color: #d3eccd;
+}
+:root {
+  --lightmode: #d3eccd;
+  --darkmode: #212121;
+}
+.main-container {
+  max-width: 100vh;
+  height: 100vh;
+  /* background-color: red; */
+}
+.head {
+  font-size: 30px;
+  padding: 5% 0 0 10%;
+}
+.horizonLine0 {
+  margin: 3% 9%;
+}
+.container0 {
+  max-width: 100vh;
+  max-height: 20vh;
+  margin: 5% 10%;
+  /* background-color: brown; */
+}
+.container0 {
+  max-width: 100vh;
+  max-height: 20vh;
+  margin: 5% 10%;
+}
+.list-head {
+  padding: 2% 3% 2% 5%;
+}
+.container1 {
+  display: flex;
+  align-items: center;
+}
+.myList {
+  /* display:block; */
+  max-width: 100vh;
+  max-height: 20vh;
+  padding: 1% 15%;
+  /* background-color: darkgreen; */
+  transition: 0.5 ease;
+}
+.listAppear {
+  width: 5%;
+  height: 10%;
+  margin: 2% 1% 1%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.listAppear img {
+  width: 100%;
+  height: 100%;
+}
+.lightmode {
+  width: 50%;
+  height: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px 15px 15px;
+  margin: 0 5% 0 0;
+}
+.lightmode img {
+  width: 30%;
+  height: 30%;
+  text-align: center;
+}
+.logo {
+  width: 80%;
+  height: 100%;
+  font-size: 30px;
+  padding: 5px;
+}
+header {
+  max-width: 100%;
+  max-height: 10vh;
+  /* background-color: blue; */
+
+  display: flex;
+  justify-content: space-between;
+}
+
+body, .list-head, .items0, ul, div {
+  transition: background-color 0.3s, color 0.3s;
+}

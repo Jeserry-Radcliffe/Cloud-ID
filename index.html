@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="01_style.css" />
+    <link rel="stylesheet" href="03_fonts.css" />
+    <title>Credentials - Mark Jeserry</title>
+  </head>
+  <body class="dark-mode">
+    <header>
+      <p class="poppins-bold logo"></p>
+      <button class="lightmode" onclick="toggleTheme()">
+        <img id = "modeIcon" src="./resources/icons/light_mode.png" alt="" />
+      </button>
+    </header>
+
+    <div class="main-container">
+      <p class="poppins-regular head">Credentials</p>
+      <hr class="horizonLine0" />
+      <div class="container0">
+        <div class="container1">
+          <p class="poppins-regular list-head">Mark Jeserry Sicat -- Photo</p>
+          <button id= "arrowTheme1" class="listAppear" onclick="toggleList()">
+            <img src="./resources/icons/White_arrow_down.png" alt="" />
+          </button>
+        </div>
+        <ul id="myList" class="poopins-regular myList" style="display: none">
+          <li class="poppins-regular items0">
+            <a href="./pdf's/sample.pdf" download class="noDecor">ID_1x1</a>
+          </li>
+          <li class="poppins-regular"><a href="" class="noDecor">ID_2x2</a></li>
+          <li class="poppins-regular">
+            <a href="" class="noDecor">ID_Passport-Size</a>
+          </li>
+        </ul>
+      </div>
+      <div class="container0">
+        <div class="container1">
+          <p class="poppins-regular list-head">
+            Mark Jeserry Sicat -- Valid Id
+          </p>
+          <button class="listAppear" onclick="toggleList1()">
+            <img src="./resources/icons/White_arrow_down.png" alt="" />
+          </button>
+        </div>
+        <ul id="myList1" class="poopins-regular myList" style="display: none">
+          <li class="poppins-regular items0">
+            <a href="./pdf's/sample.pdf" download class="noDecor"
+              >National ID</a
+            >
+          </li>
+          <li class="poppins-regular"><a href="" class="noDecor">Tin ID</a></li>
+          <li class="poppins-regular">
+            <a href="" class="noDecor">Philhealth ID</a>
+          </li>
+          <li class="poppins-regular">
+            <a href="" class="noDecor">SSS ID</a>
+          </li>
+          <li class="poppins-regular">
+            <a href="" class="noDecor">School ID</a>
+          </li>
+        </ul>
+      </div>
+      <div class="container0">
+        <div class="container1">
+          <p class="poppins-regular list-head">Mark Jeserry Sicat -- Docs</p>
+          <button class="listAppear" onclick="toggleList2()">
+            <img src="./resources/icons/White_arrow_down.png" alt="" />
+          </button>
+        </div>
+        <ul id="myList2" class="poopins-regular myList" style="display: none">
+          <li class="poppins-regular items0">
+            <a href="./pdf's/sample.pdf" download class="noDecor"
+              >Birth Certificate</a
+            >
+          </li>
+          <li class="poppins-regular"><a href="" class="noDecor">Resume</a></li>
+          <li class="poppins-regular">
+            <a href="" class="noDecor">E-Signature</a>
+          </li>
+          <li class="poppins-regular">
+            <a href="" class="noDecor">Diploma</a>
+          </li>
+          <!-- <li class="poppins-regular">
+            <a href="" class="noDecor">---</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="02_script.js"></script>
+</html>
